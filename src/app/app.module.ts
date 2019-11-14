@@ -9,9 +9,9 @@ import { AlertModule } from 'ngx-bootstrap';
     AppComponent
   ],
   imports: [
-    AlertModule.forRoot(),
     BrowserModule,
-    AppRoutingModule
+    AlertModule.forRoot(),  // this is a module for using bootstrap
+    AppRoutingModule       // this is a module for using routing
   ],
   providers: [],
   bootstrap: [AppComponent]
